@@ -11,7 +11,7 @@ The total number of rides were 2,344,224. The rides were divided amongst genders
 
 The total rides were also divided by user type. Subscribers who had an annual subscription to the bike sharing service were comprised of 1,900,359 rides while customers who used it on a pay as you use basis comprised of 443,865. Additionally a plot was done to find the most popular riding times. 5 PM to 7 PM were the most busy and active hours. The least busy hours were between 1 AM and 5 AM therefore making it the prime time for repairs.
 
-A plot was made to analyse age vs ride durationa and the resulting trend showed that younger users used the bike services for longer durations. Finally bikes which had been ridden the longest distances and bikes which had been used the most were also plotted:
+A plot was made to analyse age vs ride duration and the resulting trend showed that younger users used the bike services for longer durations. Finally bikes which had been ridden the longest distances and bikes which had been used the most were also plotted:
 
 - BikeID 39570 travelled the largest distance/duration
 - BikeID 38124 was the most actively used
@@ -53,18 +53,58 @@ An additonal note to remember is that males are more prevalent in using this ser
 
 This plot shows a colour map showing activity of this service. The more reddish the colour, the more counts of rides in that time. Looking at this plot we see:
 
-- 5 PM and 6 PM were the most active hours of the week. These hours were extremely popular on Monday, Tuesday and Thursday. 
+- 5 PM and 6 PM were the most active hours of the week. These hours were extremely popular on Monday, Tuesday and Thursday
 - 8 AM was also very active for riders
 - Saturday and Sunday were generally active throughout the day from 10 AM to 7 PM
 
+From this plot one can see that there is a trend of rush hours being the most active time periods for riders both in the morning and evening.
+
 ### Trips by Gender (Weekday per Hour)
+
+<img width="1439" alt="GenderWeekdayHours" src="https://user-images.githubusercontent.com/87828174/143790468-950e30cd-684a-45ce-aa32-1e0461e37541.png">
+
+The previous analysis is filtered by gender. One can see the same trends being followed for all genders. The trend where the rush hours and weekends are the most active hours. One can also see that the darkest colours are with Males, then Females and lastly Unknown. This follows the same trend as found in the module where we saw the largest percentage of these bike users were Male and smallest percentage were Unknown.
+
 ### User Trips by Gender by Weekday
+
+<img width="354" alt="TypeGenderWeekday" src="https://user-images.githubusercontent.com/87828174/143790899-f509b610-59ab-4dc9-9e21-f5783c1c2a7e.png">
+
+The above viz showed activity per day filtered by genders and user types. Some of the findings are:
+- There were more subscribers compared to customers for Males and Females while it was the opposite for Unknown
+- Thursday for Males was the most active day for the bike service
+
 ### Top Starting Locations
+
+<img width="1245" alt="TopStarts" src="https://user-images.githubusercontent.com/87828174/143791652-3b519eaa-9568-4509-8216-a61f6f53fee9.png">
+
+The above plot is a heatmap for the most popular and active bike starting locations. We can see that the highest concentration of bike starting activity is in Southern Manhattan in Pershing Square North. The activity is centered in this location due to locations being closer together and bikes being more economic than cars as parking is expensive. Affordability and availability plays a key factor in the concentration of bike ride starting points here.
+
 ### Top Ending Locations
+
+<img width="1242" alt="TopEnds" src="https://user-images.githubusercontent.com/87828174/143792726-9cb063fd-0383-408c-85be-fbbb156bb0e3.png">
+
+This plot is similar to the previous one, the difference being that this is a plot of the most active ending locations. Similarly the most active location is Pershing Square North in southern Manhattan. 
+
 # Summary
 ## Deliverable 3
 Tasked to create a Tableau story for the challenge, the link is embedded here:
 [Link to Tableau Story](https://public.tableau.com/app/profile/taimur.ahmad.khan/viz/Module_14_Challenge_16380498463870/KeyOutcomesoftheNYCCitibikeAnalysis)
 ## High Level Summary
+From this analysis we can understand that although New York and Des Moines are starkly different in size in population, there are some universal factors that can be implemented in both places:
+
+- Bike service locations tend to be more active and popular in places where keeping a car is not financially economical
+- Affordability and availability plays a key factor in the concentration of bike ride starting points
+- Bikes are also used more actively in areas where the distances are smaller and and can be traversed by bike
+- Subscribers and Males tend to make a larger share of users as compared to customers and other genders
+- Early mornings (1 AM to 5 AM) are less busy and can be used to service or repair the bikes
+- The most popular rides were those of a shorter duration from a range of 5 to 11 minutes for all genders
+- Rush Hours and Weekends are more active time periods for rides
+- 8 AM, 5 PM and 6 PM were the most active hours in the data throughout the week
+- These trends followed similarly for all genders
+- Younger users generally travelled larger distances/ had longer trip durations
+- The most popular ride locations were in the heart of the city
+
 ## Two Additional Visualizations
+1. Visualisation based on the most popular trip distances covered by plotting distance of ride versus ride counts. This can help us understand if larger or smaller distances were more popular and on average what distance travelled by bike was most common amongst the riders.
+2. Visualisation based on which age used the bike service the most so we can see who our target audience will be.
 
