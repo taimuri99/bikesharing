@@ -1,5 +1,5 @@
 # Bikesharing
-Module 14 Tableau: NY Citibike with Tableau
+Module 14: NY Citibike with Tableau
 # Overview of the Analysis
 Throughout the module, the main task was to analyse data from CitiBike for August of 2019. This was done as August was one of the more popular and active months for these services. The goal of the analysis was to see if a bike-sharing program in Des Moines was a solid business proposal and was sustainable. For this challenge we created 7 visualisations and added them to a Tableau story.
 ## Analysis of the module
