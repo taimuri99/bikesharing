@@ -89,6 +89,8 @@ This plot is similar to the previous one, the difference being that this is a pl
 ## Deliverable 3
 Tasked to create a Tableau story for the challenge, the link is embedded here:
 [Link to Tableau Story](https://public.tableau.com/app/profile/taimur.ahmad.khan/viz/Module_14_Challenge_16380498463870/KeyOutcomesoftheNYCCitibikeAnalysis)
+Overall Analysis also embedded here:
+[Module Analysis](https://public.tableau.com/app/profile/taimur.ahmad.khan/viz/Module14_16376370689200/NYCCitiBikeStory)
 ## High Level Summary
 From this analysis we can understand that although New York and Des Moines are starkly different in size in population, there are some universal factors that can be implemented in both places:
 
